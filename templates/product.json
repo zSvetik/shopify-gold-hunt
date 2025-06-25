@@ -79,7 +79,19 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "slides_per_view_mobile": 1,
+        "slides_per_view_tablet": 2,
+        "slides_per_view_desktop": 2,
+        "space_between_mobile": 10,
+        "space_between_tablet": 15,
+        "space_between_desktop": 40,
+        "show_pagination_mobile": true,
+        "show_pagination_tablet": true,
+        "show_pagination_desktop": true,
+        "show_arrows_mobile": false,
+        "show_arrows_tablet": true,
+        "show_arrows_desktop": true
       }
     },
     "related-products": {

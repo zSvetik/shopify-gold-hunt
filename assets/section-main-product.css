@@ -387,7 +387,6 @@ a.product__text {
 
 @media screen and (max-width: 749px) {
   .product__media-list {
-    margin-left: -2.5rem;
     margin-bottom: 3rem;
     width: calc(100% + 4rem);
   }
@@ -1491,4 +1490,19 @@ a.product__text {
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
   }
+}
+
+/* Swiper */
+.main-product-gallery-swiper {
+  padding-bottom: 30px;
+}
+
+.main-product-gallery__button-next,
+.main-product-gallery__button-prev {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-pagination.main-product-gallery__pagination {
+  bottom: 0;
 }
