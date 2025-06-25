@@ -462,7 +462,7 @@
         },
         "paragraph": {
           "content": "Appear only on large screens"
-        },                     
+        },
         "show_social": {
           "label": "Social media icons",
           "info": "[Manage social accounts](/editor?context=theme&category=social%20media)"
@@ -526,7 +526,7 @@
         },
         "header_layout": {
           "content": "Layout"
-        },            
+        },
         "desktop_layout": {
           "label": "Layout",
           "options__1": {
@@ -619,7 +619,7 @@
         },
          "header_layout": {
         "content": "Layout"
-        },        
+        },
         "image_ratio": {
           "label": "Image ratio",
           "options__1": {
@@ -705,13 +705,13 @@
         },
         "text_header": {
         "content": "Text"
-        },        
+        },
         "blog": {
           "label": "Blog"
         },
         "post_limit": {
           "label": "Post count"
-        }, 
+        },
         "columns_desktop": {
           "label": "Columns"
         },
@@ -766,7 +766,7 @@
         },
         "header_mobile": {
         "content": "Mobile layout"
-        },                 
+        },
         "collection": {
           "label": "Collection"
         },
@@ -1333,7 +1333,7 @@
       "content": "Content"
       },
       "header_colors": {
-      "content": "Colors" 
+      "content": "Colors"
       },
         "image": {
           "label": "Image"
@@ -1513,7 +1513,7 @@
         },
         "header_3":{
         "content": "Colors"
-        },        
+        },
         "image_height": {
           "options__1": {
             "label": "Adapt to image"
@@ -2304,7 +2304,7 @@
             },
             "pairing_2": {
               "label": "Pairing 2"
-            },            
+            },
             "icon_2": {
               "label": "Icon"
             },
@@ -2317,7 +2317,7 @@
             },
             "pairing_3": {
             "label": "Pairing 3"
-            },             
+            },
             "icon_3": {
               "label": "Icon"
             },
@@ -2333,7 +2333,10 @@
       },
       "settings": {
         "header": {
-          "content": "Media"
+          "content": "Media",
+          "mobile": "Mobile",
+          "tablet": "Tablet",
+          "desktop": "Desktop"
         },
         "enable_sticky_info": {
           "label": "Sticky content"
@@ -2352,6 +2355,13 @@
           "options__4": {
             "label": "Thumbnail carousel"
           }
+        },
+        "slider_layout": {
+          "header": "Responsive Swiper Slider",
+          "slides_count": "Slides Per View",
+          "slider_space": "Space Between Slides (px)",
+          "show_pagination": "Show Pagination",
+          "show_arrows": "Show Arrows"
         },
         "constrain_to_viewport": {
           "label": "Constrain to screen height"
@@ -2438,7 +2448,7 @@
           "options__2": {
             "label": "2"
           }
-        },        
+        },
         "image_ratio": {
           "label": "Image ratio",
           "options__1": {
@@ -2490,10 +2500,10 @@
         },
         "header_layout": {
           "content": "Layout"
-        },                            
+        },
         "header_button": {
           "content": "Button"
-        }, 
+        },
         "image_width": {
           "label": "Width",
           "options__1": {
@@ -2700,7 +2710,7 @@
         },
         "content_header": {
           "content": "Content"
-        },        
+        },
         "desktop_content_alignment": {
           "options__1": {
             "label": "Left"
@@ -2933,7 +2943,7 @@
           "settings": {
             "header_button1": {
             "content": "Button 1"
-            }, 
+            },
             "button_label_1": {
               "label": "Label",
               "info": "Leave blank to hide",
@@ -2947,7 +2957,7 @@
             },
             "header_button2": {
               "content": "Button 2"
-            },             
+            },
             "button_label_2": {
               "label": "Label",
               "info": "Leave label blank to hide"
@@ -3087,7 +3097,7 @@
               "default": "Tell your brand's story through images"
             },
             "header_button": {
-            "content": "Button"      
+            "content": "Button"
             },
             "button_label": {
               "label": "Label",
@@ -3101,7 +3111,7 @@
               "label": "Outline style"
             },
             "box_align": {
-              "label": "Content position",              
+              "label": "Content position",
               "options__1": {
                 "label": "Top left"
               },
@@ -3131,7 +3141,7 @@
               }
             },
             "header_layout": {
-            "content": "Layout"                 
+            "content": "Layout"
             },
             "show_text_box": {
               "label": "Container"
@@ -3152,11 +3162,11 @@
               "label": "Overlay opacity"
             },
             "header_text": {
-            "content": "Text"      
+            "content": "Text"
             },
             "header_colors": {
-            "content": "Colors"                 
-            },            
+            "content": "Colors"
+            },
             "text_alignment_mobile": {
               "label": "Mobile content alignment",
               "options__1": {
@@ -3218,7 +3228,7 @@
         },
         "section_color_scheme": {
         "label": "Section color scheme"
-        },        
+        },
         "open_first_collapsible_row": {
           "label": "Open first row"
         },

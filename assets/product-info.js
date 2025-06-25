@@ -177,6 +177,9 @@ if (!customElements.get('product-info')) {
 
           this.updateMedia(html, variant?.featured_media?.id);
 
+          // update main product gallery swiper
+          document.dispatchEvent(new Event('custom:main:product:gallery:swiper:update'));
+
           const updateSourceFromDestination = (id, shouldHide = (source) => false) => {
             const source = html.getElementById(`${id}-${this.sectionId}`);
             const destination = this.querySelector(`#${id}-${this.dataset.section}`);
@@ -241,6 +244,13 @@ if (!customElements.get('product-info')) {
 
       updateMedia(html, variantFeaturedMediaId) {
         if (!variantFeaturedMediaId) return;
+
+        if (this.querySelector('media-gallery').getAttribute('has_variant') === 'true') {
+          const mediaGallerySource = this.querySelector('media-gallery');
+          const mediaGalleryDestination = html.querySelector(`media-gallery`);
+          mediaGallerySource.outerHTML = mediaGalleryDestination.outerHTML;
+          return;
+        }
 
         const mediaGallerySource = this.querySelector('media-gallery ul');
         const mediaGalleryDestination = html.querySelector(`media-gallery ul`);
