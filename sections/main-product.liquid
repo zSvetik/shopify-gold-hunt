@@ -672,6 +672,11 @@
             {{ 'products.product.view_full_details' | t }}
             {{- 'icon-arrow.svg' | inline_asset_content -}}
           </a>
+
+            {%- render 'product-details-accordions',
+                product: product,
+                is_multiple_open: section.settings.multiple_accordion_open
+            -%}
         </section>
       </div>
     </div>
@@ -2425,6 +2430,17 @@
       "type": "checkbox",
       "id": "show_arrows_desktop",
       "label": "t:sections.main-product.settings.header.desktop",
+      "default": true
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.main-product.settings.custom_accordion.header"
+    },
+    {
+      "type": "checkbox",
+      "id": "multiple_accordion_open",
+      "label": "t:sections.main-product.settings.custom_accordion.multiple_accordion_open",
       "default": true
     }
   ]

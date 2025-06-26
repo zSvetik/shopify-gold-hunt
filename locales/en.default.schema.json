@@ -2363,6 +2363,10 @@
           "show_pagination": "Show Pagination",
           "show_arrows": "Show Arrows"
         },
+        "custom_accordion": {
+          "header": "Additional information",
+          "multiple_accordion_open": "Enable multiple accordion open"
+        },
         "constrain_to_viewport": {
           "label": "Constrain to screen height"
         },
